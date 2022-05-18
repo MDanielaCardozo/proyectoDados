@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contenedorDados {
+    display: flex;
+    background: greenyellow;
+    width: 900px;
+    height: 900px;
+    margin: 20px;
+    border-style: dashed;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+}
+
+.dados {
+    display: flex;
+    justify-content: space-between;
+    background: green;
+    width: 250px;
+    height: 250px;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+.punto {
+    width: 50px;
+    height: 50px;
+    background: white;
+    border-radius: 25px;
+    margin: 30px;
+}
+
+.punto1 {
+    width: 50px;
+    height: 50px;
+    background: white;
+    border-radius: 25px;
+}
+
+.punto5 {
+    width: 50px;
+    height: 50px;
+    background: white;
+    border-radius: 25px;
+    margin: 20px;
+}
+
+.puntoCentro {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.dadosDos .punto:nth-of-type(2) {
+    align-self: flex-end;
+}
+
+.dadosTres {
+    justify-content: space-between;
+
+}
+
+.dadosTres .punto1:nth-of-type(1) {
+    align-self: flex-start;
+    margin: 25px;
+    flex-shrink: 0;
+}
+
+.dadosTres .punto1:nth-of-type(2) {
+    align-self: center;
+    flex-shrink: 0;
+}
+
+.dadosTres .punto1:nth-of-type(3) {
+    align-self: flex-end;
+    margin: 25px;
+    flex-shrink: 0;
+}
+
+.dadosCuatro {
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.dadosCinco {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    background: green;
+    width: 250px;
+    height: 250px;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+.columnaCinco {
+    display: flex;
+    justify-content: space-between;
+}
+
+.medio {
+    align-self: center;
+    flex-shrink: 0;
+    margin: 0;
+}
+
+.dadosSeis {
+    display: flex;
+    justify-content: space-between;
+    background: green;
+    width: 250px;
+    height: 250px;
+    border-radius: 30px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.columnaSeis {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.puntoSeis {
+    flex-shrink: 0;
+    margin: 10px;
+}
+
+
